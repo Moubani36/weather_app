@@ -388,7 +388,7 @@
 
 <script>
 /* ========== Configuration ========== */
-const API_KEY = "4354340dce41b8d36d2f376618eedbfa"; // <- replace with your OpenWeatherMap API key 
+const API_KEY = ""; // <- replace with your OpenWeatherMap API key 
 
 /* ========== Utilities ========== */
 function el(id){ return document.getElementById(id); }
@@ -539,7 +539,7 @@ async function sendMessage(){
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'X-goog-api-key': 'AIzaSyClQt8OfRZHggy2ZYSocxwiW9E8Lvrxf_8'  // <--- Replace with your actual API key
+        'X-goog-api-key': ''  // <--- Replace with your actual API key
       },
       body: JSON.stringify(payload)
     });
@@ -629,3 +629,4 @@ fetchCityWeather('Mumbai');
 
 </body>
 </html>
+
