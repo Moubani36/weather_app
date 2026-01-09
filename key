@@ -1,10 +1,3 @@
-4354340dce41b8d36d2f376618eedbfa
-
-AIzaSyCLA5ip_tje63VQuHbbRQWrotcXtlIxXn4
-
-AIzaSyA7PieaEbrY3XQZ_8brI-vb3gyILkr_WLw
-
-AIzaSyClQt8OfRZHggy2ZYSocxwiW9E8Lvrxf_8
 
 
 <!DOCTYPE html> 
@@ -850,4 +843,5 @@ document.addEventListener('keydown', (e)=>{
         window.onload = getLocation;
     </script>
 </body>
+
 </html>
